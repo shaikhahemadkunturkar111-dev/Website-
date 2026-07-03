@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Iron Beast Gym — Premium Gym & Fitness. Powerful training, expert trainers, and transformative results.">
+  <meta name="keywords" content="Gym, Fitness, Personal Training, Crossfit, Cardio, Weight Training, Yoga">
+  <title>Iron Beast Gym — Train Like a Beast</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/yourfontawesomekit.js" crossorigin="anonymous"></script>
+  <!-- AOS for scroll animations -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Sticky Navbar -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#home" class="logo">Iron Beast <span>Gym</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></button>
+    </nav>
+  </header>
+
+  <!-- Countdown Offer Banner -->
+  <div class="countdown-banner" id="countdown" aria-live="polite"></div>
+
+  <!-- Hero -->
+  <section id="home" class="hero" style="background-image: url('https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&fit=crop&w=1950&q=80')">
+    <div class="overlay"></div>
+    <div class="hero-content container" data-aos="fade-up">
+      <h1>Unleash Your Power</h1>
+      <p>Iron Beast Gym — premium training, elite coaches, real results.</p>
+      <div class="hero-cta">
+        <a href="#plans" class="btn btn-primary">Join Now</a>
+        <a href="#contact" class="btn btn-outline">Book a Visit</a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll to About"><i class="fas fa-chevron-down"></i></a>
+  </section>
+
+  <main>
+    <!-- About -->
+    <section id="about" class="section about container" data-aos="fade-right">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>About Iron Beast</h2>
+          <p>Iron Beast Gym combines cutting-edge equipment, elite trainers, and a community of motivated members to help you build strength, endurance, and confidence. Our programs are designed for all levels — from beginners to pro athletes.</p>
+          <ul class="features">
+            <li><i class="fas fa-dumbbell"></i> State-of-the-art equipment</li>
+            <li><i class="fas fa-user-tie"></i> Certified trainers</li>
+            <li><i class="fas fa-heartbeat"></i> Personalized programs</li>
+          </ul>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1546484959-f7d7ed4fdfda?auto=format&fit=crop&w=1000&q=80" alt="Gym training">
+        </div>
+      </div>
+    </section>
+
+    <!-- Membership Plans -->
+    <section id="plans" class="section plans container" data-aos="fade-up">
+      <h2>Membership Plans</h2>
+      <p class="sub">Simple pricing — maximum results.</p>
+      <div class="plans-grid">
+        <article class="plan" data-aos="zoom-in" data-plan="basic">
+          <h3>Basic</h3>
+          <p class="price"><span>$</span>29<span>/mo</span></p>
+          <ul>
+            <li>Gym Access</li>
+            <li>Locker Room</li>
+            <li>Group Classes</li>
+          </ul>
+          <a href="#contact" class="btn btn-secondary">Get Basic</a>
+        </article>
+
+        <article class="plan popular" data-aos="zoom-in" data-aos-delay="100">
+          <div class="ribbon">Popular</div>
+          <h3>Pro</h3>
+          <p class="price"><span>$</span>59<span>/mo</span></p>
+          <ul>
+            <li>Everything in Basic</li>
+            <li>4 Personal Sessions</li>
+            <li>Nutrition Plan</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Get Pro</a>
+        </article>
+
+        <article class="plan" data-aos="zoom-in" data-aos-delay="200">
+          <h3>Premium</h3>
+          <p class="price"><span>$</span>99<span>/mo</span></p>
+          <ul>
+            <li>Unlimited PT</li>
+            <li>Personalized Coaching</li>
+            <li>Priority Support</li>
+          </ul>
+          <a href="#contact" class="btn btn-secondary">Get Premium</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section services container" data-aos="fade-left">
+      <h2>Services</h2>
+      <div class="services-grid">
+        <div class="service-card"><i class="fas fa-dumbbell"></i><h4>Weight Training</h4><p>Strength programs tailored to you.</p></div>
+        <div class="service-card"><i class="fas fa-running"></i><h4>Cardio</h4><p>Endurance and conditioning classes.</p></div>
+        <div class="service-card"><i class="fas fa-user"></i><h4>Personal Training</h4><p>One-on-one expert coaching.</p></div>
+        <div class="service-card"><i class="fas fa-fire"></i><h4>CrossFit</h4><p>High intensity functional training.</p></div>
+        <div class="service-card"><i class="fas fa-child"></i><h4>Yoga</h4><p>Mobility, recovery, and balance.</p></div>
+      </div>
+    </section>
+
+    <!-- Trainers -->
+    <section id="trainers" class="section trainers container" data-aos="fade-up">
+      <h2>Meet Our Trainers</h2>
+      <div class="trainers-grid">
+        <div class="trainer-card" data-aos="flip-left">
+          <img src="https://images.unsplash.com/photo-1543986630-9c2f9d7b1a88?auto=format&fit=crop&w=600&q=80" alt="Trainer">
+          <h4>Max Carter</h4>
+          <p>Head Coach - Strength</p>
+          <div class="socials">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="trainer-card" data-aos="flip-left" data-aos-delay="100">
+          <img src="https://images.unsplash.com/photo-1554284126-aa88f22d1a27?auto=format&fit=crop&w=600&q=80" alt="Trainer">
+          <h4>Sara Lewis</h4>
+          <p>Cardio & Conditioning</p>
+          <div class="socials">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="trainer-card" data-aos="flip-left" data-aos-delay="200">
+          <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=600&q=80" alt="Trainer">
+          <h4>Leo Martinez</h4>
+          <p>CrossFit Specialist</p>
+          <div class="socials">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BMI Calculator -->
+    <section id="bmi" class="section bmi container" data-aos="fade-up">
+      <h2>BMI Calculator</h2>
+      <div class="bmi-grid">
+        <form id="bmiForm" class="bmi-form" onsubmit="return false;">
+          <label>Weight (kg)
+            <input type="number" id="weight" min="20" required>
+          </label>
+          <label>Height (cm)
+            <input type="number" id="height" min="80" required>
+          </label>
+          <label>Age
+            <input type="number" id="age" min="10">
+          </label>
+          <label>Sex
+            <select id="sex">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </label>
+          <div class="bmi-actions">
+            <button class="btn btn-primary" id="calcBmi">Calculate BMI</button>
+            <button class="btn btn-outline" id="resetBmi">Reset</button>
+          </div>
+        </form>
+        <div class="bmi-result" id="bmiResult" aria-live="polite">
+          <h3>Your BMI</h3>
+          <p class="value">--</p>
+          <p class="interpretation">Fill the form and calculate.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transformation Gallery -->
+    <section id="gallery" class="section gallery container" data-aos="fade-up">
+      <h2>Transformations</h2>
+      <div class="gallery-grid">
+        <figure class="before-after">
+          <img src="https://images.unsplash.com/photo-1526406915892-8b2b3f9f6fea?auto=format&fit=crop&w=600&q=80" alt="Before">
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="before-after">
+          <img src="https://images.unsplash.com/photo-1534367610128-5d1b0e3d2e3b?auto=format&fit=crop&w=600&q=80" alt="After">
+          <figcaption>After</figcaption>
+        </figure>
+        <figure class="before-after">
+          <img src="https://images.unsplash.com/photo-1583454110557-21f5f7b2d5d1?auto=format&fit=crop&w=600&q=80" alt="Before">
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="before-after">
+          <img src="https://images.unsplash.com/photo-1549576490-b0b4831ef60a?auto=format&fit=crop&w=600&q=80" alt="After">
+          <figcaption>After</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section testimonials container" data-aos="fade-up">
+      <h2>What Members Say</h2>
+      <div class="testimonials-slider" id="testSlider">
+        <blockquote>
+          "Joining Iron Beast changed my life. The coaches pushed me to new limits." <cite>- Alex R.</cite>
+        </blockquote>
+        <blockquote>
+          "Friendly community and top-notch equipment. I hit PRs every month." <cite>- Mia T.</cite>
+        </blockquote>
+        <blockquote>
+          "The premium plan was the best investment I've made for my health." <cite>- Jordan C.</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section faq container" data-aos="fade-right">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details>
+          <summary>What are your opening hours?</summary>
+          <p>We are open Mon-Sat 5:00 AM - 11:00 PM, Sun 7:00 AM - 8:00 PM.</p>
+        </details>
+        <details>
+          <summary>Do you offer personal training?</summary>
+          <p>Yes — personal training is available for all members. See Pro & Premium plans for discounts.</p>
+        </details>
+        <details>
+          <summary>Are there membership contracts?</summary>
+          <p>We offer flexible monthly and yearly memberships — no long lock-in contracts for standard plans.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact container" data-aos="fade-up">
+      <h2>Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Get in touch</h3>
+          <p><i class="fas fa-map-marker-alt"></i> 123 Iron Ave, Fitness City</p>
+          <p><i class="fas fa-phone"></i> <a href="tel:+11234567890">+1 (123) 456-7890</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:hello@ironbeastgym.com">hello@ironbeastgym.com</a></p>
+
+          <h4>Find us</h4>
+          <!-- Responsive Google Maps embed (placeholder) -->
+          <div class="map-wrap">
+            <iframe title="Iron Beast Gym location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019564680557!2d-122.41941518468151!3d37.77492977975995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085818c0a2e7bcd%3A0x3a0b0f6d3f0a0e3f!2sSan+Francisco!5e0!3m2!1sen!2sus!4v1620240000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form" action="/" method="post" onsubmit="submitContact(event)">
+          <label>Full name<input type="text" name="name" required></label>
+          <label>Email<input type="email" name="email" required></label>
+          <label>Phone<input type="tel" name="phone"></label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <button class="btn btn-outline" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="#">Iron Beast <span>Gym</span></a>
+        <p>Train hard. Eat clean. Be relentless.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#plans">Plans</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; <span id="year"></span> Iron Beast Gym. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>/* Load AOS */AOS.init({duration:800,once:true,offset:100});</script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
